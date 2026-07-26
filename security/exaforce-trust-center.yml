@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.exaforce.com/
+url: https://trust.exaforce.com/
+# Exaforce publishes a hosted trust center at trust.exaforce.com (HTTP 200).
+# The page is a client-side (JS-rendered) trust portal, so specific named
+# certifications could not be extracted verbatim and are intentionally NOT
+# asserted here (no fabrication). A follow-up render is needed to capture any
+# SOC 2 / ISO 27001 / etc. claims before emitting a `Compliance` pointer.
+certifications: []
+security_contact: security@exaforce.com   # from exaforce.com CAA iodef record
+evidence:
+- source: https://trust.exaforce.com/
+  kind: trust-center
+  detail: hosted trust portal returns 200 with "Exaforce Trust Center" heading
+- source: security/exaforce-domain-security.yml
+  kind: caa-iodef
+  detail: 'CAA record: 0 iodef "mailto:security@exaforce.com"'

@@ -1,8 +1,31 @@
 aid: exaforce
 name: Exaforce
-description: Exaforce is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Exaforce is a security operations platform that pairs AI agents with a unified
+  data layer to help teams detect, triage, investigate, and respond to threats
+  faster. Its four autonomous "Exabot" agents (Detect, Triage, Investigate, and
+  Respond) automate SOC workflows across 100+ data sources spanning cloud,
+  identity, endpoint, SaaS, and code repositories, and can run as a self-operated
+  platform or as a managed detection and response (MDR) service staffed by expert
+  analysts working alongside the AI 24/7. Exaforce positions itself as an
+  agentic-SOC alternative to traditional SIEM tooling while retaining integration
+  compatibility. The company is backed by Mayfield and profiled in the API
+  Evangelist network. No public developer API or reference documentation is
+  currently published; this profile captures the company's public web, security,
+  and trust surface.
 url: https://raw.githubusercontent.com/api-evangelist/exaforce/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67d895a4a98745273854676e/6903c255b37fa747f21907e0_Exaforce-Logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Security Operations
+- SOC
+- SIEM
+- Threat Detection
+- Incident Response
+- Artificial Intelligence
+- AI Agents
+- Managed Detection and Response
+- Cloud Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,24 @@ maintainers:
 common:
 - type: Website
   url: https://exaforce.com
+- type: Blog
+  url: https://exaforce.com/blogs
+- type: Support
+  url: https://exaforce.com/contact-us
+- type: Login
+  url: https://login.us.app.exaforce.io/select-tenant
+- type: TermsOfService
+  url: https://exaforce.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://exaforce.com/policies/privacy-policy
+- type: StatusPage
+  url: https://www.exaforcestatus.com/
+- type: TrustCenter
+  url: https://trust.exaforce.com/
+- type: DomainSecurity
+  url: security/exaforce-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
