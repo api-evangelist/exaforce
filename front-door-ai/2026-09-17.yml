@@ -1,0 +1,33 @@
+# Front Door AI Index — exaforce — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: exaforce
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: exaforce.com
+  final_host: www.exaforce.com
+  ownership: own
+  owner: exaforce
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 64
+  host_score: 64
+  density: 16.74
+  words: 3823
+  tiers:
+    agentic: 16
+    core: 46
+    model: 2
+  ambiguous: 18
+  top_terms:
+    AI: 44
+    agentic: 15
+    agent: 11
+    automation: 7
+    AI agent: 1
+    ChatGPT: 1
+    Claude: 1
+    LLMs: 1
+    generative ai: 1
